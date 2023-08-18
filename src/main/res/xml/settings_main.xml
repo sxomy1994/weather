@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:title="Weather Settings">
+
+    <PreferenceCategory android:title="@string/units"
+        app:allowDividerBelow="true"
+        app:allowDividerAbove="true">
+        <ListPreference
+            android:defaultValue="celsius"
+            android:entries="@array/settings_temperature_unit_by_label"
+            android:entryValues="@array/settings_temperature_unit_by_value"
+            android:key="temperature_unit"
+            android:title="@string/temperature_units" />
+        <ListPreference
+            android:defaultValue="km_per_hour"
+            android:entries="@array/settings_wind_speed_unit_by_label"
+            android:entryValues="@array/settings_wind_speed_unit_by_value"
+            android:key="wind_speed_unit"
+            android:title="@string/wind_speed_unit" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/display_app_language"
+        app:allowDividerBelow="true"
+        app:allowDividerAbove="true">
+    <ListPreference
+        android:defaultValue="Srpski"
+        android:entries="@array/settings_language_label"
+        android:entryValues="@array/settings_language_label"
+        android:key="language"
+        android:title="@string/language" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/feedback_title_category">
+        <Preference
+            android:key="feedback_key"
+            android:title="@string/feedback_title_preference"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>

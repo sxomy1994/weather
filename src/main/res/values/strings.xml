@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">Weather</string>
+
+    <string name="autocomplete_text_view_hint">unesi lokaciju</string>
+    <string name="clear_sky">Vedro</string>
+    <string name="partially_cloudy">Delimično oblačno</string>
+    <string name="cloudy">Oblačno</string>
+    <string name="fog">Magla</string>
+    <string name="rain">Kiša</string>
+    <string name="shower">Pljusak</string>
+    <string name="snow">Sneg</string>
+    <string name="thunderstorm">Oluja sa grmljavinom</string>
+    <string name="wind">Vetar</string>
+    <string name="precipitation">Mogućnost padavina</string>
+    <string name="humidity">Vlažnost vazduha</string>
+    <string name="settings">Podešavanja</string>
+    <string name="temperature_units">Temperaturna jedinica</string>
+    <string name="wind_speed_unit">Jedinica za brzinu vetra</string>
+    <string name="language">Jezik</string>
+    <string name="north">S</string>
+    <string name="north_east">SI</string>
+    <string name="north_west">SZ</string>
+    <string name="east">I</string>
+    <string name="south_east">JI</string>
+    <string name="south">J</string>
+    <string name="south_west">JZ</string>
+    <string name="west">Z</string>
+    <string name="gps_not_available_dialog_message">Lokacija na vašem uređaju je isključena, molimo uključite je i pokušajte ponovo.</string>
+    <string name="cancel_dialog">Otkaži</string>
+    <string name="turn_on_gps">Uključi</string>
+    <string name="feedback_sent">Povratne informacije poslate</string>
+    <string name="feedback_title_category">Povratne informacije</string>
+    <string name="feedback_title_preference">Pošalji povratne informacije</string>
+    <string name="enter_your_email">Unesite vašu email adresu</string>
+    <string name="have_any_issues_or_ideas_let_us_know">Želite da prijavite problem ili da predložite sugestije? Javite nam...</string>
+    <string name="rate_your_experience">Ocenite vaše iskustvo</string>
+    <string name="cancel_feedback">odustani</string>
+    <string name="submit_feedback">pošalji</string>
+    <string name="display_app_language">Jezik aplikacije</string>
+    <string name="units">Merne jedinice</string>
+    <string name="toast_please_turn_on_internet">Molimo uključite internet i probajte ponovo.</string>
+    <string name="from_feedback_message">Od:</string>
+    <string name="permission_dialog_title">Neophodna je dozvola za pristup lokaciji</string>
+    <string name="grant_permission">Dajte dozvolu</string>
+    <string name="cancel_permission">Odustani</string>
+    <string name="permission_dialog_message">Omogućite pristup lokaciji da biste dobijali tačne vremenske informacije na osnovu vaše trenutne lokacije. Vaša lokacija će se koristiti samo za praćenje vremenskih uslova.</string>
+    <string name="location_denied_gps_icon_click_toast">Dozvola za korišćenje lokacije je odbijena. Da bi ste koristili ovu funkciju, omogućite pristup lokaciji.</string>
+    <string name="go_to_settings">Idi u podešavanja</string>
+    <string name="locale">sr-Latn</string>
+
+</resources>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="settings_temperature_unit_by_label">
+        <item>°C</item>
+        <item>°F</item>
+    </string-array>
+
+    <string-array name="settings_temperature_unit_by_value">
+        <item>celsius</item>
+        <item>fahrenheit</item>
+    </string-array>
+
+    <string-array name="settings_wind_speed_unit_by_label">
+        <item>km/h</item>
+        <item>m/s</item>
+        <item>mph</item>
+    </string-array>
+
+    <string-array name="settings_wind_speed_unit_by_value">
+        <item>km_per_hour</item>
+        <item>meter_per_second</item>
+        <item>miles_per_hour</item>
+    </string-array>
+
+    <!--Languages-->
+    <string-array name="settings_language_label">
+        <item>Srpski</item>
+        <item>English</item>
+    </string-array>
+</resources>
